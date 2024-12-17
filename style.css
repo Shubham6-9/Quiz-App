@@ -1,0 +1,84 @@
+body {
+    font-family: "Atma", system-ui;
+    letter-spacing: 1.5px;
+    /* Dont Know this taken from Google to DISABLE TEXT selection */
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main,
+#sco {
+    height: 520px;
+    width: 350px;
+    border-radius: 20px;
+    background-color: rgb(225, 225, 225);
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 0px 0px 20px;
+    position: relative;
+}
+
+#sco {
+    height: 420px;
+    padding: 10px 0px 0px 0px;
+    display: none;
+    text-align: center;
+}
+
+.btn,
+p {
+    display: inline-block;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px
+}
+
+button {
+    height: 35px;
+    border: 0px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+}
+
+#score,
+#reset {
+    display: none;
+    background-color: lightyellow;
+}
+
+#next {
+    left: 10px;
+    background-color: lightgreen;
+}
+
+#pre {
+    right: 10px;
+    bottom: 65px;
+    background-color: grey;
+}
+
+#score {
+    right: 70px;
+}
+
+#reset button {
+    right: 10px;
+    background-color: lightyellow;
+
+}
+
+#score-display {
+    font-size: 40px;
+}
+
+#greet {
+    font-size: 25px;
+}

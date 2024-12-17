@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="over">
+            <h3 id="que">
+
+            </h3>
+            <div id="opt">
+                <input type="radio" class="btn" name="btn">
+                <p id="opt1"></p><br>
+                <input type="radio" class="btn" name="btn">
+                <p id="opt2"></p><br>
+                <input type="radio" class="btn" name="btn">
+                <p id="opt3"></p><br>
+                <input type="radio" class="btn" name="btn">
+                <p id="opt4"></p><br>
+            </div>
+        </div>
+        <div>
+            <button id="pre" disabled>previous Question</button>
+            <button id="next">Next Question</button>
+            <button id="score">Check Score</button>
+            <a href="./index.html" id="reset"><button>Reset</button></a>
+        </div>
+    </div>
+    <div id="sco">
+        <h1>Your Score is</h1>
+        <p id="score-display"></p><br>
+        <p id="greet"></p>
+        <a href="./index.html"><button>&nbsp;&nbsp; Reset &nbsp;&nbsp;</button></a>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
